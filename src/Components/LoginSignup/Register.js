@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Register() {
   return (
+    <div className='main'>
     <div className='wrapper'>
         <form action=" ">
             <h1>Sign Up</h1>
@@ -29,6 +30,7 @@ function Register() {
                 <p>Already have an account? <Link to="/">Login</Link></p>
             </div>
         </form>
+    </div>
     </div>
   )
 }

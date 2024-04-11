@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Login() {
   return (
+    <div className='main'>
     <div className='wrapper'>
         <form action=" ">
             <h1>Login</h1>
@@ -28,6 +29,7 @@ function Login() {
                 <p>Don't have an account? <Link to="/register">Register</Link></p>
             </div>
         </form>
+    </div>
     </div>
   )
 }

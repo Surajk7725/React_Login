@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Forget() {
   return (
+    <div className='main'>
     <div className='wrapper'>
         <form action=" ">
             <h1>Forget Password</h1>
@@ -15,6 +16,7 @@ function Forget() {
             </div>
             <Link to='/'><button type='submit'>Submit Now</button></Link>
         </form>
+    </div>
     </div>
   )
 }
